@@ -109,6 +109,60 @@
 
     </section>
 
+    <section class="carrosel">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/ApacheKafka.svg"
+                        alt="Livro Sobre apache kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"> <img src="./Assets/Liderança.svg"
+                        alt="livro sobre liderança em design da alura books"></div>
+                <div class="swiper-slide"><img src="./Assets/Javascript.svg"
+                        alt="livro sobre javascript assertivo da alura books"></div>
+                <div class="swiper-slide"><img src="./Assets/Guia Front-end.svg" alt="livro guia front end alura books">
+                </div>
+                <div class="swiper-slide"><img src="./Assets/Portugol.svg" alt="livro protugol da alura books">
+                </div>
+                <div class="swiper-slide"><img src="./Assets/Acessibilidade.svg"
+                        alt="livro alura books sobre acessibilidade na web"></div>
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1 linha -->
+            <div class="card__descricao">
+                <!-- 1 Coluna -->
+                <div class="descricao">
+                    <img class="descricao__titulo-esterlinhas" src="./Assets/Estrelinhas.svg" >
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="./Assets/escritora.svg" class="descricao__imagem" alt="Logo Do Angular">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"> <img src="./Assets/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="./Assets/Compras.svg" alt="Adicionar ao carrinho"></li>
+                </ul>
+                <a href="#" class="botoes__ancora-2">Saiba Mais</a>
+            </div>
+
+        </div>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
